@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "producto": [
+      {
+        "nombre": "Lapiz",
+        "descripcion": "Util",
+        "codigo": 666,
+        "url": "UrlLapiz",
+        "precio": 111,
+        "stock": 10
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{{message}}
+<form  action="/register"  enctype="multipart/form-data" method="post" >
+    <div class="jumbotron" >
+        <h1 style="color:blue;">Registro de Usuario</h1>
+        <br>
+
+
+    <div class="form-group">
+        Email<input id="email" class="form-control" type="text" name="email" required>    
+        Nombre<input id="username" class="form-control" type="text" name="username" required>
+        Direccion<input id="direccion" class="form-control" type="text" name="direccion" required>
+        Edad<input id="edad" class="form-control" type="text" name="edad" required>
+        Telefono<input id="telefono" class="form-control" type="text" name="telefono" required>
+        Foto/Avatar<input id="avatar" type="file" name="avatar" accept="image/*" required/>
+        <br>
+        Clave<input id="password" class="form-control" type="text" name="password" required>
+        
+    </div>
+
+    {{!-- <button onclick="window.location='../index.html'" class="btn btn-success mt-3 mb-5" id="btnLogin">Enviar</button> --}}
+
+    {{!-- <button class="btn btn-success mt-3 mb-5" id="btnLogin">Enviar</button> --}}
+     <input class="btn btn-success mt-3 mb-5" type="submit" value="Register"/>
+
+     <button onclick="window.location.href = '/login'" class="btn btn-success mt-3 mb-5">Ir a Login</button>
+    </div>
+</form>
